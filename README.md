@@ -1,2 +1,35 @@
-# VoicePaper-new
-A SwiftUI-based iOS app for text-to-speech reading
+# VoicePaper
+
+VoicePaper 是一款支持多种格式文本朗读的 iOS 应用。
+
+## 功能特点
+
+- 支持 PDF、网页和文本内容的朗读
+- 自定义朗读语音和速度
+- 书签和进度保存
+- 支持内容收藏和归档
+
+## 开发环境
+
+- Xcode 15.0+
+- iOS 16.0+
+- Swift 5.9
+
+## 项目结构
+
+VoicePaper/
+├── App/          # 应用程序入口
+├── Views/        # 视图层
+│   ├── Home/     # 主页视图
+│   ├── Content/  # 内容详情
+│   └── Add/      # 添加内容
+└── Resources/    # 资源文件
+
+## 开发进度
+
+- [x] 项目基础架构
+- [x] 主界面布局
+- [x] 播放控件
+- [ ] 内容管理
+- [ ] 音频播放
+- [ ] 设置功能
